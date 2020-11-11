@@ -1,0 +1,10 @@
+.main-section {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+  @include conateiner-size($page-size);
+  background-color: $main-background-color;
+  .main-section__heading {
+    @include text-format(40px);
+  }
+}

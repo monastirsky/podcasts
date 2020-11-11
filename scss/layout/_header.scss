@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $header-background-color;
+  border: 2px solid rgb(228, 228, 228);
+  .container {
+    margin: 0 auto;
+    height: 80px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include conateiner-size($page-size);
+  }
+}
+
+.header__logo {
+  zoom: 0.8;
+}
+
+.navigation {
+  display: flex;
+  height: 80%;
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 40px;
+    &:hover {
+      border-bottom: 2px solid blue;
+    }
+  }
+  &__text {
+    @include text-format(16px);
+    color: blueviolet;
+    font-weight: 550;
+  }
+}

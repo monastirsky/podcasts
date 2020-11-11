@@ -9,36 +9,35 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="header-container">
+        <div class="container">
           <a class="" href=""
             ><img
-              class="logo"
+              class="header__logo"
               src="https://www.messy.fm/static/media/navbar_logo.cb523963.svg"
               alt="messy.fm"
           /></a>
-          <nav class="menu">
-            <a class="menu-element" href="https://www.messy.fm/about"
-              ><span class="manu-element-text">About</span></a
+          <nav class="navigation">
+            <a class="navigation__link" href="https://www.messy.fm/about"
+              ><span class="navigation__text">About</span></a
             >
-            <a class="menu-element" href="https://www.messy.fm/book-a-demo"
-              ><span class="manu-element-text">Book a Demo</span></a
+            <a class="navigation__link" href="https://www.messy.fm/book-a-demo"
+              ><span class="navigation__text">Book a Demo</span></a
             >
-            <a class="menu-element" href="https://www.messy.fm/signin"
-              ><span class="manu-element-text">Sing In</span></a
+            <a class="navigation__link" href="https://www.messy.fm/signin"
+              ><span class="navigation__text">Sing In</span></a
             >
           </nav>
         </div>
       </header>
       <section class="main-section">
-        <h1 class="publick-podcast">Messy.fm Public Podcasts</h1>
-        <div class="categories-and-search">
+        <h1 class="main-section__heading">Messy.fm Public Podcasts</h1>
+        <div class="main-section__choice">
           <select name="categories">
-            <option value=""></option>
+            <option value="1">...</option>
+            <option value="2">...</option>
+            <option value="3">...</option>
           </select>
-          <span class="surch"
-            ><input type="text" placeholder="Search for Podcasts" />
-            <span surch-buttoon><img src="" alt="surch" /></span
-          ></span>
+          <input type="text" class="search" placeholder="Search for Podcasts" />
         </div>
         <div class="popular-podcasts">
           <p class="name-of-category">Top & Trending Episodes</p>

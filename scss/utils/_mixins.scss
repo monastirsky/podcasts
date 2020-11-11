@@ -1,0 +1,9 @@
+@mixin text-format($size) {
+  font-family: $font-style;
+  font-size: $size;
+}
+
+@mixin conateiner-size($size) {
+  max-width: $size;
+  width: 100%;
+}
