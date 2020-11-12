@@ -204,7 +204,8 @@ table {
   .main-section__heading2 {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 27px;
-    margin: 70px 0 20px 0; }
+    margin: 70px 0 20px 0;
+    padding-left: 30px; }
   .main-section__block {
     max-width: 1150px;
     width: 100%; }
@@ -214,7 +215,7 @@ table {
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  padding: 0 20px;
+  padding: 0 30px;
   justify-content: space-between; }
   .choice__input-container {
     max-width: 200px;
