@@ -13,7 +13,20 @@
   }
 }
 
-.footer__navigation {
+.footer-navigation {
   @include text-format(16px);
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
   color: white;
+  &__question {
+    display: flex;
+    flex-direction: column;
+  }
+  &__link {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+  }
 }

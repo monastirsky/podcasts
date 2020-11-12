@@ -214,6 +214,22 @@ table {
     background-image: url(https://messybun.s3-accelerate.amazonaws.com/5438-54381540894021359.jpeg);
     background-position: center center;
     background-size: cover; }
+  .podcast-list__hover-background {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0; }
+  .podcast-list__buttom {
+    position: relative;
+    top: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%); }
+  .podcast-list__hover-background:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease 0s; }
   .podcast-list__links {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -240,7 +256,18 @@ table {
     max-width: 140px;
     width: 100%; }
 
-.footer__navigation {
+.footer-navigation {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
   color: white; }
+  .footer-navigation__question {
+    display: flex;
+    flex-direction: column; }
+  .footer-navigation__link {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0; }
