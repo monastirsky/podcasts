@@ -1,0 +1,19 @@
+.footer {
+  background-color: $footer-background-color;
+  &__block {
+    margin: 0 auto;
+    @include conateiner-size($page-size);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    max-width: 140px;
+    width: 100%;
+  }
+}
+
+.footer__navigation {
+  @include text-format(16px);
+  color: white;
+}

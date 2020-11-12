@@ -1,7 +1,8 @@
 @import "./base/reset";
-@import "utils/variables";
+@import "./utils/variables";
 @import "./utils/mixins";
 @import "./components/input";
 @import "./layout/wrapper";
 @import "./layout/header";
 @import "./layout/main-section";
+@import "./layout/footer.scss";
