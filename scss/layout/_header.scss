@@ -1,20 +1,21 @@
 .header {
   width: 100%;
   position: fixed;
+
   top: 0;
   left: 0;
   background-color: $header-background-color;
   border: 2px solid rgb(228, 228, 228);
-  .container {
-    margin: 0 auto;
-    height: 80px;
-    padding-left: 20px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @include conateiner-size($page-size);
-  }
+}
+.container {
+  margin: 0 auto;
+  height: 80px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include conateiner-size($page-size);
 }
 
 .header__logo {
@@ -37,5 +38,22 @@
     @include text-format(16px);
     color: blueviolet;
     font-weight: 550;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    height: 100px;
+    padding: 10px 0 0 0;
+  }
+  .navigation__link {
+    padding: 5px;
+  }
+  .choice {
+    flex-direction: column;
+    align-items: center;
   }
 }

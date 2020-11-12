@@ -34,7 +34,7 @@
 
 .podcast-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   &__container {
@@ -89,5 +89,14 @@
   }
   &__name:hover {
     color: blue;
+  }
+}
+
+@media (max-width: 600px) {
+  .choice {
+    height: auto;
+    &__input-container {
+      margin: 5px;
+    }
   }
 }
