@@ -1,11 +1,13 @@
 .footer {
   background-color: $footer-background-color;
   &__block {
+    padding: 20px;
     margin: 0 auto;
     @include conateiner-size($page-size);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
   }
   &__logo {
     max-width: 140px;
@@ -19,14 +21,17 @@
   justify-content: space-between;
   max-width: 400px;
   width: 100%;
-  color: white;
+
   &__question {
     display: flex;
     flex-direction: column;
   }
   &__link {
-    text-decoration: none;
-    color: white;
-    margin: 10px 0;
+    margin-bottom: 20px;
+  }
+  &__commication {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

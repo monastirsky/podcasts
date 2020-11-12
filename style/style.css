@@ -127,6 +127,13 @@ table {
   height: 100%;
   border-radius: 7px; }
 
+.link {
+  text-decoration: none;
+  color: white; }
+
+.link:hover {
+  text-decoration: underline; }
+
 .wrapper {
   margin: 0 auto; }
 
@@ -180,8 +187,8 @@ table {
     margin: 50px 0; }
   .main-section__heading2 {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    margin: 70px 0 50px 0; }
+    font-size: 27px;
+    margin: 70px 0 20px 0; }
   .main-section__block {
     max-width: 1150px;
     width: 100%; }
@@ -246,12 +253,14 @@ table {
 .footer {
   background-color: #231e29; }
   .footer__block {
+    padding: 20px;
     margin: 0 auto;
     max-width: 1150px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    color: white; }
   .footer__logo {
     max-width: 140px;
     width: 100%; }
@@ -262,12 +271,13 @@ table {
   display: flex;
   justify-content: space-between;
   max-width: 400px;
-  width: 100%;
-  color: white; }
+  width: 100%; }
   .footer-navigation__question {
     display: flex;
     flex-direction: column; }
   .footer-navigation__link {
-    text-decoration: none;
-    color: white;
-    margin: 10px 0; }
+    margin-bottom: 20px; }
+  .footer-navigation__commication {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
