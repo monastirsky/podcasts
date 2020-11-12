@@ -1,7 +1,8 @@
 .footer {
+  margin-top: 100px;
   background-color: $footer-background-color;
   &__block {
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
     margin: 0 auto;
     @include conateiner-size($page-size);
     display: flex;
@@ -34,4 +35,18 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  &__icons {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  &__contact {
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.down-link {
+  display: inline-block;
+  padding: 0 20px;
 }
