@@ -4,4 +4,8 @@
   border-radius: 7px;
   box-sizing: border-box;
   background-color: white;
+  border: 1px solid rgb(72, 72, 72);
+}
+.input:focus {
+  outline-color: lawngreen;
 }

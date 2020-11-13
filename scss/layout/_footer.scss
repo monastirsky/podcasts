@@ -3,6 +3,7 @@
   background-color: $footer-background-color;
   &__block {
     padding: 50px 20px 20px 20px;
+    box-sizing: border-box;
     margin: 0 auto;
     @include conateiner-size($page-size);
     display: flex;
